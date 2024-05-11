@@ -1,13 +1,15 @@
 # Job Match
-Receba uma nota e um feedback se o seu CV é bom ou compatível com uma vaga de trabalho que você está buscando.
+Receba uma nota (de 0 a 10) e um feedback (com pontos positivos e negativos) se o seu CV é bom ou compatível com uma vaga de trabalho que você está buscando.
 
 # Como usar
 
-Entre no Colab, vá na barra de tarefas superior em `Runtime` >> `Run all`. E insira os seus dados conforme pedido.
-
-- Insira o seu Currículo (CV)
-- Insira o título da vaga
-- Insira a descrição da vaga
+- Crie sua Google API Key [nesse link](https://aistudio.google.com/app/apikey/) e a copie
+- Entre no Colab (entrando no arquivo `Match_de_Vaga_Avaliação_do_CV_sobre_vagas.ipynb` e clicando em `Open in Colab`)
+- Cole a API Key em uma variável chamada `SECRET_KEY` na área `Secrets` (botão da "chave" na barra esquerda)
+- Finalmente, vá na barra de tarefas superior em `Runtime` >> `Run all`. E insira os seus dados conforme pedido.
+  - Insira o seu Currículo (CV)
+  - Insira o título da vaga
+  - Insira a descrição da vaga
 
 ## Resultado - Veja como é o feedback da aplicação
 
